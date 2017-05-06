@@ -1,0 +1,16 @@
+<!-- index.html -->
+<h2>Users Listing</h2>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Phone No</th>
+        <th>Address</th>
+    </tr>
+    <tr ng-repeat="user in users">
+        <td>{{user.name}}</td>
+        <td>{{user.contactNo}}</td>
+        <td>{{user.address}}</td>
+    </tr>
+</table>
+{{users}}
